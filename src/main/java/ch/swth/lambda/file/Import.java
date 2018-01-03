@@ -24,7 +24,7 @@ public class Import {
         return null;
     }
 
-    private List<Person> loadPersons(BufferedReader reader) {
+    List<Person> loadPersons(BufferedReader reader) {
         return reader.lines().collect(ArrayList::new, tokensToPerson, ArrayList::addAll);
     }
 
