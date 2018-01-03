@@ -1,0 +1,9 @@
+.idea/**/workspace.xml
+.idea/**/libraries
+/.idea/compiler.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/saveactions_settings.xml
+.idea/inspectionProfiles/
+target/**
